@@ -1,0 +1,97 @@
+h2 
+	{
+		box-sizing: border-box;
+		width: 500px;
+		height: 100px;
+		background-color: #75e5ef;
+		color: white;
+		margin: auto;
+		font-size: 25px;
+		font-family: sans-serif;
+		text-align: center;
+		padding: 50px;
+	}
+p
+	{
+		box-sizing: border-box;
+		width: 500px;
+		height: 100px;
+		background-color: #75e5ef;
+		color: white;
+		margin: auto;
+		font-size: 20px;
+		font-family: sans-serif;
+		text-align: center;
+		padding: 50px;
+	}	
+body
+{
+	padding: 0;
+	margin: 0;
+}
+.red 
+{
+	background-color: red;
+	height: 50vh;
+}
+.yellow
+{
+	background-color: yellow;
+}
+.cir-out
+{
+	width: 150px;
+	height: 150px;
+	border: 1px solid yellow;
+	border-radius: 50%;
+}
+.cir-in
+{
+	width: 140px;
+	height: 140px;
+	border: 1px solid red;
+	border-radius: 50%;
+	background-color: red	;
+	position: absolute;
+	top: -5px;
+	left: -7px;
+}
+.handle
+{
+	width: 15px;
+	height: 40px;
+	rotate: 30deg;
+	position: relative;
+	left: 30px;
+	top: -10px;
+}
+.handle-hammer
+{
+	width: 20px;
+	height: 120px;
+	position: absolute;
+	top: 70px;
+	left: 110px;
+	rotate: -45deg;
+}
+.hammerhead
+{
+	width: 20px;
+	height: 50px;
+	position: absolute;
+	rotate: 45deg;
+	top: 56px;
+	left: 60px;
+}
+.hammerhead::after 
+{
+	content: '';
+	display: block;
+	background-color: red;
+	width: 10px;
+	height: 20px;
+	rotate: 45deg;
+	position: relative;
+	top: -7px;
+
+}
